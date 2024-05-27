@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 
 
 export default function MainPage() {
@@ -85,19 +84,18 @@ export default function MainPage() {
           <div className="column is-5">
             <figure className="image is-4by3">
               <img
-                src="https://www.sportli.cz/magazin/wp-content/uploads/2022/10/penalta-1024x683.jpg"
+                src="https://1gr.cz/fotky/lidovky/14/062/c460/PAJ53cb89_Brazuca.jpg"
                 alt="Description"
               />
             </figure>
           </div>
           <div className="column is-6 is-offset-1">
-            <h1 className="title is-2">Superhero Scaffolding</h1>
+            <h1 className="title is-2">Vítejte na stránce pro prodej fotbalových věcí</h1>
             <h2 className="subtitle is-4">
-              Let this cover page describe a product or service.
+              Dále na této stránce najdete tutoriály které budu muset potřebovat pro fotbal
             </h2>
             <br />
             <p className="has-text-centered">
-              <a className="button is-medium is-info is-outlined">Learn more</a>
             </p>
           </div>
         </div>
@@ -116,7 +114,6 @@ export default function MainPage() {
     </div>
   </section>
 </>
-
     </>
   );
 }
